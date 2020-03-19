@@ -1,0 +1,3990 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 17189110,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ]
+        },
+        {
+          "Name": "P-gp",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Ontogeny": {
+            "Name": "P-gp",
+            "Table": {
+              "Name": "TableFormula",
+              "Percentile": 0.0,
+              "DistributionMetaData": [
+                {
+                  "Mean": 1E-14,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.915059E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 5.486795E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0001571905,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0004502473,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.001288958,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.00368424,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.01048397,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.02946235,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0800178,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.1994918,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.4165768,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.6716791,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.8542612,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.943803,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9796414,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.992799,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9974749,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9991173,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9996917,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9998924,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999624,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999869,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.0,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                }
+              ],
+              "XName": "Postmenstrual age",
+              "XDimension": "Age in years",
+              "XUnit": "year(s)",
+              "YName": "P-gp",
+              "YDimension": "Fraction",
+              "UseDerivedValues": false,
+              "Points": [
+                {
+                  "X": 0.0,
+                  "Y": 1E-14,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.08333334,
+                  "Y": 1.915059E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.1666667,
+                  "Y": 5.486795E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.25,
+                  "Y": 0.0001571905,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.3333333,
+                  "Y": 0.0004502473,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.4166667,
+                  "Y": 0.001288958,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5,
+                  "Y": 0.00368424,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5833333,
+                  "Y": 0.01048397,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.6666667,
+                  "Y": 0.02946235,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.75,
+                  "Y": 0.0800178,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.8333333,
+                  "Y": 0.1994918,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.9166667,
+                  "Y": 0.4165768,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.0,
+                  "Y": 0.6716791,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.083333,
+                  "Y": 0.8542612,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.166667,
+                  "Y": 0.943803,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.25,
+                  "Y": 0.9796414,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.333333,
+                  "Y": 0.992799,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.416667,
+                  "Y": 0.9974749,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.5,
+                  "Y": 0.9991173,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.583333,
+                  "Y": 0.9996917,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.666667,
+                  "Y": 0.9998924,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.75,
+                  "Y": 0.9999624,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.833333,
+                  "Y": 0.9999869,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 3.333333,
+                  "Y": 1.0,
+                  "RestartSolver": false
+                }
+              ]
+            }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.32,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "GABRG2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0877710492,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Yasui 1996",
+      "Seed": 23495718,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Japanese_Population",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 3.215476948,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2019-11-28 17:54"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 37.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ]
+        },
+        {
+          "Name": "P-gp",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Ontogeny": {
+            "Name": "P-gp",
+            "Table": {
+              "Name": "TableFormula",
+              "Percentile": 0.0,
+              "DistributionMetaData": [
+                {
+                  "Mean": 1E-14,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.915059E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 5.486795E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0001571905,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0004502473,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.001288958,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.00368424,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.01048397,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.02946235,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0800178,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.1994918,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.4165768,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.6716791,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.8542612,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.943803,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9796414,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.992799,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9974749,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9991173,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9996917,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9998924,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999624,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999869,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.0,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                }
+              ],
+              "XName": "Postmenstrual age",
+              "XDimension": "Age in years",
+              "XUnit": "year(s)",
+              "YName": "P-gp",
+              "YDimension": "Fraction",
+              "UseDerivedValues": false,
+              "Points": [
+                {
+                  "X": 0.0,
+                  "Y": 1E-14,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.08333334,
+                  "Y": 1.915059E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.1666667,
+                  "Y": 5.486795E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.25,
+                  "Y": 0.0001571905,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.3333333,
+                  "Y": 0.0004502473,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.4166667,
+                  "Y": 0.001288958,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5,
+                  "Y": 0.00368424,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5833333,
+                  "Y": 0.01048397,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.6666667,
+                  "Y": 0.02946235,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.75,
+                  "Y": 0.0800178,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.8333333,
+                  "Y": 0.1994918,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.9166667,
+                  "Y": 0.4165768,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.0,
+                  "Y": 0.6716791,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.083333,
+                  "Y": 0.8542612,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.166667,
+                  "Y": 0.943803,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.25,
+                  "Y": 0.9796414,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.333333,
+                  "Y": 0.992799,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.416667,
+                  "Y": 0.9974749,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.5,
+                  "Y": 0.9991173,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.583333,
+                  "Y": 0.9996917,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.666667,
+                  "Y": 0.9998924,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.75,
+                  "Y": 0.9999624,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.833333,
+                  "Y": 0.9999869,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 3.333333,
+                  "Y": 1.0,
+                  "RestartSolver": false
+                }
+              ]
+            }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.32,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "GABRG2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0877710492,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Alprazolam",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.0756837827,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.233,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "PMID: 1880224"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 40.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 0.1369893967,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 2.4,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "alpha-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.131,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 269.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.7777214266,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.5426032482,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "4-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.23,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 704.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 13.2390746671,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 308.765,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Itraconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 4.624,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Description": "Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton, 2008",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.6016197247,
+              "Unit": "%"
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Solution fasted (Taupitz et al. 2013)",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 8.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Taupitz et al. 2013"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Taupitz et al. 2013"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Solution fed",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.58,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "Capsule fasted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.9728307177,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "Capsule fed",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.7,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 5.3261558344E-05,
+              "Unit": "dm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Description": "Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "Fit",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 0.1111202419,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Description": "Fit"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 3.7,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Isoherranen 2004",
+          "Molecule": "CYP3A4",
+          "Metabolite": "Hydroxy-Itraconazole",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.27,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 2.0688492598,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0402937875,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Isoherranen, 2004",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 1.3,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Description": "Isoherranen, 2004"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Shityakov 2014",
+          "Molecule": "ABCB1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.008,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Shityakov 2014"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 705.633,
+          "Unit": "g/mol"
+        },
+        {
+          "Name": "Enable supersaturation",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "Hydroxy-Itraconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.718,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton, 2008",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 1.7,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton, 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "No value available",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 3.7,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Isoherranen 2004",
+          "Molecule": "CYP3A4",
+          "Metabolite": "Keto-Itraconazole",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 4.1716224833,
+              "Unit": "nmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.1716224833,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0203370845,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen, 2004"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Isoherranen, 2004",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.4,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen, 2004"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 721.633,
+          "Unit": "g/mol"
+        },
+        {
+          "Name": "Enable supersaturation",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "Keto-Itraconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 4.2109086248,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton, 2008",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 1.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton, 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "No value available",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 3.7,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Isoherranen 2004",
+          "Molecule": "CYP3A4",
+          "Metabolite": "N-desalkyl-Itraconazole",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.0869,
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 2.2214874285,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.3933927416,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Isoherranen, 2004",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 5.12,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 719.617,
+          "Unit": "g/mol"
+        },
+        {
+          "Name": "Enable supersaturation",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "N-desalkyl-Itraconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 5.1837535822,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton, 2008",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 1.1,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton, 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "No value available",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 3.7,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Isoherranen 2004",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 0.0,
+              "Unit": "nmol/min/pmol rec. enzyme"
+            },
+            {
+              "Name": "Km",
+              "Value": 0.6284266369,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0605873508,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Isoherranen, 2004",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.32,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen, 2004"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 649.527,
+          "Unit": "g/mol"
+        },
+        {
+          "Name": "Enable supersaturation",
+          "Value": 0.0
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Weibull_Xanax",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 0.001438691456,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.7012076697,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },    
+    {
+      "Name": "Weibull",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 17.0371288522,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2019-11-28 17:54"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.8863184081,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2019-11-28 17:54"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Capsule fasted",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 406.3001802552,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.4297720052,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Capsule fed",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 138.95,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.82
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Alprazolam PO 0.8 mg @ t=73 h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.8,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 73.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Itraconazole PO 200 mg QD",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 144.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Alprazolam PO 0.8 mg @ t=0 h",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.8,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Yasui 1998 - Alprazolam 0.8 mg with placebo",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Alprazolam PO 0.8 mg @ t=0 h|Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Yasui 1996",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Alprazolam PO 0.8 mg @ t=0 h",
+            "Formulations": [
+              {
+                "Name": "Weibull",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Yasui 1998 - Alprazolam 0.8 mg with placebo-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yasui 1998 - Alprazolam 0.8 mg with placebo|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Itraconazole-Alprazolam-DDI\nYasui 1998 - Alprazolam 0.8 mg with placebo\n2019-11-29 10:32"
+        }
+      ]
+    },
+    {
+      "Name": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 122.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Alprazolam PO 0.8 mg @ t=73 h|Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Itraconazole PO 200 mg QD|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Itraconazole PO 200 mg QD|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Itraconazole PO 200 mg QD|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Itraconazole PO 200 mg QD|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Itraconazole PO 200 mg QD|Capsule fasted|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Itraconazole PO 200 mg QD|Capsule fasted|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.0012817969925,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Yasui 1996",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Alprazolam PO 0.8 mg @ t=73 h",
+            "Formulations": [
+              {
+                "Name": "Weibull",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Hydroxy-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Keto-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Capsule fasted",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Hydroxy-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Itraconazole PO 200 mg QD",
+            "Formulations": [
+              {
+                "Name": "Capsule fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Keto-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "N-desalkyl-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "N-desalkyl-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 72.0,
+              "Max": 122.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 0.044,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yasui 1998 - Alprazolam 0.8 mg with itraconazole|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Itraconazole-Alprazolam-DDI\nYasui 1998 - Alprazolam 0.8 mg with itraconazole\n2019-11-28 17:58"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ]
+    }
+  ],
+  "ParameterIdentifications": [
+    {
+      "Name": "Parameter Identification 1",
+      "Simulations": [
+        "Yasui 1998 - Alprazolam 0.8 mg with placebo"
+      ],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": false,
+        "Algorithm": {
+          "Name": "Levenberg - Marquardt (MPFit)",
+          "Properties": [
+            {
+              "Name": "ftol",
+              "Value": 0.001
+            },
+            {
+              "Name": "xtol",
+              "Value": 1E-06
+            },
+            {
+              "Name": "gtol",
+              "Value": 1E-10
+            },
+            {
+              "Name": "stepfactor",
+              "Value": 100.0
+            },
+            {
+              "Name": "maxiter",
+              "Value": 200
+            },
+            {
+              "Name": "maxfev",
+              "Value": 0
+            },
+            {
+              "Name": "epsfcn",
+              "Value": 1E-09
+            }
+          ]
+        }
+      },
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Yasui 1998 - Alprazolam 0.8 mg with placebo|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)"
+        }
+      ],
+      "IdentificationParameters": [
+        {
+          "Name": "Reference concentration",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo|CYP3A4|Reference concentration"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.432,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 43.2,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo|Applications|Alprazolam PO 0.8 mg @ t=0 h|Weibull|Dissolution time (50% dissolved)"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 15.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 2.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 150.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "Dissolution shape",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "Yasui 1998 - Alprazolam 0.8 mg with placebo|Applications|Alprazolam PO 0.8 mg @ t=0 h|Weibull|Dissolution shape"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 0.92
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.1
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 2.0
+            }
+          ]
+        }
+      ],
+      "Analyses": [
+        {
+          "Name": "Time Profile",
+          "Type": "ParameterIdentificationTimeProfileChart",
+          "Chart": {
+            "Axes": [
+              {
+                "Unit": "h",
+                "Dimension": "Time",
+                "Type": "X",
+                "GridLines": false,
+                "Visible": true,
+                "DefaultColor": "#FFFFFF",
+                "DefaultLineStyle": "None",
+                "Scaling": "Linear",
+                "NumberMode": "Normal"
+              },
+              {
+                "Unit": "µmol/l",
+                "Dimension": "Concentration (mass)",
+                "Type": "Y",
+                "GridLines": false,
+                "Visible": true,
+                "DefaultColor": "#FFFFFF",
+                "DefaultLineStyle": "Solid",
+                "Scaling": "Log",
+                "NumberMode": "Normal"
+              }
+            ],
+            "Curves": [
+              {
+                "Name": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+                "Y": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+                "CurveOptions": {
+                  "VisibleInLegend": false,
+                  "Color": "#FF0000",
+                  "LegendIndex": 1,
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Name": "Yasui 1998 - Alprazolam 0.8 mg with placebo-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+                "X": "Time",
+                "Y": "Yasui 1998 - Alprazolam 0.8 mg with placebo|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+                "CurveOptions": {
+                  "Color": "#FF0000",
+                  "LegendIndex": 2
+                }
+              }
+            ],
+            "Name": "Time Profile"
+          }
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1025.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Yasui 1998"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9784084"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1; Table 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Alprazolam with placebo"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.8 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Solanax, Pharmacia & Upjohn, Tokyo, Japan"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77,
+            "LLOQ": 5E-10
+          },
+          "Values": [
+            0.00723580131,
+            0.01065387,
+            0.0111441,
+            0.0110442806,
+            0.0103701493,
+            0.008584766,
+            0.00820712652,
+            0.007106761,
+            0.006098806,
+            0.004105031,
+            0.002308016,
+            0.001309389
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          24.0,
+          36.0,
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1026.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Yasui 1998"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9784084"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1; Table 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Alprazolam with itraconazole"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.8 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 73.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Solanax, Pharmacia & Upjohn, Tokyo, Japan"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77,
+            "LLOQ": 5E-10
+          },
+          "Values": [
+            0.01134645,
+            0.01230345,
+            0.01275431,
+            0.01358342,
+            0.01094536,
+            0.01134645,
+            0.01134645,
+            0.01065387,
+            0.009060939,
+            0.007988564,
+            0.005883218,
+            0.004783473
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Yasui 1998 - Alprazolam with itraconazole - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          73.5,
+          74.0,
+          75.0,
+          76.0,
+          77.0,
+          79.0,
+          81.0,
+          83.0,
+          85.0,
+          97.0,
+          109.0,
+          121.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
