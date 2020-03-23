@@ -5,7 +5,7 @@ Modeling of published clinical Itraconazole-Alprazolam-DDI studies for model eva
 
 ## Repository files
 
-Within this repository, we distribute a PK-Sim project file containing simulations of published clinical studies used to evaluate the predictive performance of our models regarding the Rifampicin-Alfentanil-DDI, including the respective observed data digitized from literature reports.
+Within this repository, we distribute a PK-Sim project file containing simulations of published clinical studies used to evaluate the predictive performance of our models regarding the Itraconazole-Alprazolam-DDI, including the respective observed data digitized from literature reports.
 
 The reference model repositories can be found here:
 
