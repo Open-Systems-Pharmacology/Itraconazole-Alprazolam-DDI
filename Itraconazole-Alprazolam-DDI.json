@@ -2488,7 +2488,7 @@
   ],
   "Formulations": [
     {
-      "Name": "Weibull_Xanax",
+      "Name": "Xanax_IR",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
