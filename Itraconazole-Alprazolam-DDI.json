@@ -808,8 +808,8 @@
       ]
     },
     {
-      "Name": "Yasui 1996",
-      "Seed": 23495718,
+      "Name": "Japanese (Yasui studies)",
+      "Seed": -2063117500,
       "OriginData": {
         "CalculationMethods": [
           "SurfaceAreaPlsInt_VAR1",
@@ -833,51 +833,87 @@
           "Expression": [
             {
               "Name": "Brain",
-              "Value": 0.0041682898325
+              "Value": 0.0041682898325,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
-              "Value": 0.00078691079081
+              "Value": 0.00078691079081,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
-              "Value": 0.0053603428126
+              "Value": 0.0053603428126,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
-              "Value": 0.00042695753798
+              "Value": 0.00042695753798,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
-              "Value": 0.0727697702
+              "Value": 0.0727697702,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Ontogeny": {
@@ -886,17 +922,17 @@
           "Parameters": [
             {
               "Name": "Reference concentration",
-              "Value": 3.215476948,
+              "Value": 3.4842311024,
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 1' on 2019-11-28 17:54"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             },
             {
               "Name": "t1/2 (liver)",
-              "Value": 37.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -913,103 +949,178 @@
           "Expression": [
             {
               "Name": "BloodCells",
-              "Value": 3.9102564103E-05
+              "Value": 3.9102564103E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Plasma",
-              "Value": 3.9102564103E-05
+              "Value": 3.9102564103E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Bone",
-              "Value": 4.8717948718E-05
+              "Value": 4.8717948718E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Brain",
-              "Value": 3.9743589744E-05
+              "Value": 3.9743589744E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
-              "Value": 0.0011923076923
+              "Value": 0.0011923076923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
-              "Value": 0.0026602564103
+              "Value": 0.0026602564103,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
-              "Value": 5.7051282051E-05
+              "Value": 5.7051282051E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
-              "Value": 0.0269230769
+              "Value": 0.0269230769,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
-              "Value": 0.00020833333333
+              "Value": 0.00020833333333,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pancreas",
-              "Value": 0.1474358974
+              "Value": 0.1474358974,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Spleen",
-              "Value": 0.00037115384615
+              "Value": 0.00037115384615,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Stomach",
-              "Value": 0.0775641026
+              "Value": 0.0775641026,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LargeIntestine",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
-              "Value": 0.2544871795
+              "Value": 0.2544871795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonAscendens",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonTransversum",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonDescendens",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
+              "Value": 0.00010384615385,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -1021,117 +1132,186 @@
             {
               "Name": "Bone",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
+              "Value": 0.0341950646,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Brain",
               "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
+              "Value": 0.1072855464,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
               "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
+              "Value": 0.024559342,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
               "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
+              "Value": 0.059106933,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
               "MembraneLocation": "Apical",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
               "MembraneLocation": "Apical",
-              "Value": 0.2702702703
+              "Value": 0.2702702703,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
               "MembraneLocation": "Apical",
-              "Value": 0.2702702703
+              "Value": 0.2702702703,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
+              "Value": 0.0927144536,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
+              "Value": 0.0180963572,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pancreas",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
+              "Value": 0.0200940071,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Spleen",
               "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
+              "Value": 0.1047003525,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Stomach",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
+              "Value": 0.0367802585,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
               "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
+              "Value": 0.3960047004,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LargeIntestine",
               "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
+              "Value": 0.1562867215,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
               "MembraneLocation": "Apical",
-              "Value": 1.41
+              "Value": 1.41,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonAscendens",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonTransversum",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonDescendens",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonSigmoid",
               "MembraneLocation": "Apical",
-              "Value": 0.56
+              "Value": 0.56,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Ontogeny": {
@@ -1410,37 +1590,58 @@
             {
               "Name": "Brain",
               "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
+              "Value": 0.00014166666667,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
+              "Value": 0.0141666667,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
               "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
+              "Value": 0.0008253968254,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
               "MembraneLocation": "Basolateral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
               "MembraneLocation": "Basolateral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
               "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
+              "Value": 4.0079365079E-05,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
+              "Value": 0.00064682539683,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -1453,99 +1654,171 @@
           "Expression": [
             {
               "Name": "Bone",
-              "Value": 0.0062154033171
+              "Value": 0.0062154033171,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Brain",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Gonads",
-              "Value": 0.0508741242
+              "Value": 0.0508741242,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Heart",
-              "Value": 0.3179118843
+              "Value": 0.3179118843,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Kidney",
-              "Value": 0.0158938619
+              "Value": 0.0158938619,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Periportal",
-              "Value": 0.0223784807
+              "Value": 0.0223784807,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 0.0223784807
+              "Value": 0.0223784807,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Lung",
-              "Value": 0.0272345453
+              "Value": 0.0272345453,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Muscle",
-              "Value": 0.7034193524
+              "Value": 0.7034193524,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pancreas",
-              "Value": 0.0073903254795
+              "Value": 0.0073903254795,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Skin",
-              "Value": 0.0389467988
+              "Value": 0.0389467988,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Spleen",
-              "Value": 0.0103243118
+              "Value": 0.0103243118,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Stomach",
-              "Value": 0.0309435884
+              "Value": 0.0309435884,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "SmallIntestine",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LargeIntestine",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Duodenum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperJejunum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerJejunum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "UpperIleum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "LowerIleum",
-              "Value": 0.0501579923
+              "Value": 0.0501579923,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonAscendens",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonTransversum",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonDescendens",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "ColonSigmoid",
-              "Value": 0.0786998764
+              "Value": 0.0786998764,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Parameters": [
@@ -1568,11 +1841,17 @@
           "Expression": [
             {
               "Name": "Periportal",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "Pericentral",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Ontogeny": {
@@ -1598,7 +1877,10 @@
           "Expression": [
             {
               "Name": "Brain",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ],
           "Parameters": [
@@ -2048,10 +2330,6 @@
           "Name": "Molecular weight",
           "Value": 705.633,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     },
@@ -2193,10 +2471,6 @@
           "Name": "Molecular weight",
           "Value": 721.633,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     },
@@ -2338,10 +2612,6 @@
           "Name": "Molecular weight",
           "Value": 719.617,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     },
@@ -2478,10 +2748,6 @@
           "Name": "Molecular weight",
           "Value": 649.527,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     }
@@ -2513,40 +2779,6 @@
             "Source": "ParameterIdentification",
             "Method": "ParameterIdentification",
             "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
-          }
-        },
-        {
-          "Name": "Use as suspension",
-          "Value": 1.0
-        }
-      ]
-    },    
-    {
-      "Name": "Weibull",
-      "FormulationType": "Formulation_Tablet_Weibull",
-      "Parameters": [
-        {
-          "Name": "Dissolution time (50% dissolved)",
-          "Value": 17.0371288522,
-          "Unit": "min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 1' on 2019-11-28 17:54"
-          }
-        },
-        {
-          "Name": "Lag time",
-          "Value": 0.0,
-          "Unit": "min"
-        },
-        {
-          "Name": "Dissolution shape",
-          "Value": 0.8863184081,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Parameter Identification 1' on 2019-11-28 17:54"
           }
         },
         {
@@ -2606,6 +2838,40 @@
         {
           "Name": "Dissolution shape",
           "Value": 0.82
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Solanax",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 35.8519725483,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
         },
         {
           "Name": "Use as suspension",
@@ -2675,17 +2941,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 144.0,
           "Unit": "h",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -2765,7 +3031,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Alprazolam PO 0.8 mg @ t=0 h|Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Alprazolam PO 0.8 mg @ t=0 h|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2949,7 +3215,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Yasui 1996",
+      "Individual": "Japanese (Yasui studies)",
       "Compounds": [
         {
           "Name": "Alprazolam",
@@ -2980,7 +3246,7 @@
             "Name": "Alprazolam PO 0.8 mg @ t=0 h",
             "Formulations": [
               {
-                "Name": "Weibull",
+                "Name": "Solanax",
                 "Key": "Formulation"
               }
             ]
@@ -3093,7 +3359,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Alprazolam PO 0.8 mg @ t=73 h|Weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Alprazolam PO 0.8 mg @ t=73 h|Solanax|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3311,7 +3577,7 @@
         "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Yasui 1996",
+      "Individual": "Japanese (Yasui studies)",
       "Compounds": [
         {
           "Name": "Alprazolam",
@@ -3342,7 +3608,7 @@
             "Name": "Alprazolam PO 0.8 mg @ t=73 h",
             "Formulations": [
               {
-                "Name": "Weibull",
+                "Name": "Solanax",
                 "Key": "Formulation"
               }
             ]
@@ -3509,12 +3775,12 @@
         {
           "Name": "CYP3A4-Isoherranen, 2004",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
+          "CompoundName": "Hydroxy-Itraconazole"
         },
         {
           "Name": "CYP3A4-Isoherranen, 2004",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
+          "CompoundName": "Itraconazole"
         },
         {
           "Name": "CYP3A4-Isoherranen, 2004",
@@ -3525,186 +3791,6 @@
           "Name": "CYP3A4-Isoherranen, 2004",
           "MoleculeName": "CYP3A4",
           "CompoundName": "N-desalkyl-Itraconazole"
-        }
-      ]
-    }
-  ],
-  "ParameterIdentifications": [
-    {
-      "Name": "Parameter Identification 1",
-      "Simulations": [
-        "Yasui 1998 - Alprazolam 0.8 mg with placebo"
-      ],
-      "Configuration": {
-        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
-        "RemoveLLOQMode": "Never",
-        "CalculateJacobian": false,
-        "Algorithm": {
-          "Name": "Levenberg - Marquardt (MPFit)",
-          "Properties": [
-            {
-              "Name": "ftol",
-              "Value": 0.001
-            },
-            {
-              "Name": "xtol",
-              "Value": 1E-06
-            },
-            {
-              "Name": "gtol",
-              "Value": 1E-10
-            },
-            {
-              "Name": "stepfactor",
-              "Value": 100.0
-            },
-            {
-              "Name": "maxiter",
-              "Value": 200
-            },
-            {
-              "Name": "maxfev",
-              "Value": 0
-            },
-            {
-              "Name": "epsfcn",
-              "Value": 1E-09
-            }
-          ]
-        }
-      },
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Yasui 1998 - Alprazolam 0.8 mg with placebo|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)"
-        }
-      ],
-      "IdentificationParameters": [
-        {
-          "Name": "Reference concentration",
-          "Scaling": "Log",
-          "LinkedParameters": [
-            "Yasui 1998 - Alprazolam 0.8 mg with placebo|CYP3A4|Reference concentration"
-          ],
-          "Parameters": [
-            {
-              "Name": "Start value",
-              "Value": 4.32,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "MinValue",
-              "Value": 0.432,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "MaxValue",
-              "Value": 43.2,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "Name": "Dissolution time (50% dissolved)",
-          "Scaling": "Log",
-          "LinkedParameters": [
-            "Yasui 1998 - Alprazolam 0.8 mg with placebo|Applications|Alprazolam PO 0.8 mg @ t=0 h|Weibull|Dissolution time (50% dissolved)"
-          ],
-          "Parameters": [
-            {
-              "Name": "Start value",
-              "Value": 15.0,
-              "Unit": "min"
-            },
-            {
-              "Name": "MinValue",
-              "Value": 2.0,
-              "Unit": "min"
-            },
-            {
-              "Name": "MaxValue",
-              "Value": 150.0,
-              "Unit": "min"
-            }
-          ]
-        },
-        {
-          "Name": "Dissolution shape",
-          "Scaling": "Log",
-          "LinkedParameters": [
-            "Yasui 1998 - Alprazolam 0.8 mg with placebo|Applications|Alprazolam PO 0.8 mg @ t=0 h|Weibull|Dissolution shape"
-          ],
-          "Parameters": [
-            {
-              "Name": "Start value",
-              "Value": 0.92
-            },
-            {
-              "Name": "MinValue",
-              "Value": 0.1
-            },
-            {
-              "Name": "MaxValue",
-              "Value": 2.0
-            }
-          ]
-        }
-      ],
-      "Analyses": [
-        {
-          "Name": "Time Profile",
-          "Type": "ParameterIdentificationTimeProfileChart",
-          "Chart": {
-            "Axes": [
-              {
-                "Unit": "h",
-                "Dimension": "Time",
-                "Type": "X",
-                "GridLines": false,
-                "Visible": true,
-                "DefaultColor": "#FFFFFF",
-                "DefaultLineStyle": "None",
-                "Scaling": "Linear",
-                "NumberMode": "Normal"
-              },
-              {
-                "Unit": "µmol/l",
-                "Dimension": "Concentration (mass)",
-                "Type": "Y",
-                "GridLines": false,
-                "Visible": true,
-                "DefaultColor": "#FFFFFF",
-                "DefaultLineStyle": "Solid",
-                "Scaling": "Log",
-                "NumberMode": "Normal"
-              }
-            ],
-            "Curves": [
-              {
-                "Name": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-                "X": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|Time",
-                "Y": "Yasui 1998 - Alprazolam with placebo - Alprazolam - PO - 0.8 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
-                "CurveOptions": {
-                  "VisibleInLegend": false,
-                  "Color": "#FF0000",
-                  "LegendIndex": 1,
-                  "LineStyle": "None",
-                  "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "Yasui 1998 - Alprazolam 0.8 mg with placebo-Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Yasui 1998 - Alprazolam 0.8 mg with placebo|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF0000",
-                  "LegendIndex": 2
-                }
-              }
-            ],
-            "Name": "Time Profile"
-          }
         }
       ]
     }
