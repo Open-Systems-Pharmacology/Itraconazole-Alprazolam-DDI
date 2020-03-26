@@ -1907,12 +1907,12 @@
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": 2.0756837827,
+              "Value": 2.0799268917,
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -1957,12 +1957,12 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 0.1369893967,
+              "Value": 7.6146060669,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2005,12 +2005,12 @@
             },
             {
               "Name": "kcat",
-              "Value": 0.7777214266,
+              "Value": 0.8066945978,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2022,11 +2022,11 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 0.5426032482,
+              "Value": 0.5461456402,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2058,12 +2058,12 @@
             },
             {
               "Name": "kcat",
-              "Value": 13.2390746671,
+              "Value": 13.7322820855,
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification' on 2019-10-21 16:26"
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
               }
             }
           ]
@@ -2076,7 +2076,10 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         },
         {
           "Name": "Molecular weight",
@@ -3037,7 +3040,7 @@
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3045,7 +3048,7 @@
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3053,7 +3056,7 @@
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3061,7 +3064,7 @@
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3069,7 +3072,7 @@
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3077,7 +3080,7 @@
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3085,7 +3088,7 @@
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3093,7 +3096,7 @@
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3101,7 +3104,7 @@
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3109,7 +3112,7 @@
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3117,7 +3120,7 @@
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3125,7 +3128,7 @@
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3133,7 +3136,7 @@
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3141,7 +3144,7 @@
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3149,7 +3152,7 @@
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3157,7 +3160,7 @@
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3165,7 +3168,7 @@
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3173,7 +3176,7 @@
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3181,7 +3184,7 @@
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3189,7 +3192,7 @@
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3197,7 +3200,7 @@
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3205,7 +3208,7 @@
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3395,7 +3398,7 @@
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3403,7 +3406,7 @@
         },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3411,7 +3414,7 @@
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3419,7 +3422,7 @@
         },
         {
           "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3427,7 +3430,7 @@
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3435,7 +3438,7 @@
         },
         {
           "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3443,7 +3446,7 @@
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3451,7 +3454,7 @@
         },
         {
           "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3459,7 +3462,7 @@
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3467,7 +3470,7 @@
         },
         {
           "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3475,7 +3478,7 @@
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3483,7 +3486,7 @@
         },
         {
           "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3491,7 +3494,7 @@
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3499,7 +3502,7 @@
         },
         {
           "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3507,7 +3510,7 @@
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3515,7 +3518,7 @@
         },
         {
           "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3523,7 +3526,7 @@
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3531,7 +3534,7 @@
         },
         {
           "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3539,7 +3542,7 @@
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3547,7 +3550,7 @@
         },
         {
           "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3555,7 +3558,7 @@
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
@@ -3563,7 +3566,7 @@
         },
         {
           "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
-          "Value": 0.0012817969925,
+          "Value": 0.2587408658,
           "Unit": "cm/min",
           "ValueOrigin": {
             "Source": "Unknown"
